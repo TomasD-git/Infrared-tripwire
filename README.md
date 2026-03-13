@@ -36,7 +36,8 @@ Transmitter:
 | Solder – Sn60Pb40 SW26 CYNEL (100 g)           | [link](https://allegro.cz/produkt/cin-cynel-0-7-mm-100-g-99e5d961-6ab8-4671-8a9c-d044c9a1d741) |         206 |      $10.08 |  1  |             55 |          $2.69 |         261 |      $12.77 |
 | USB‑A to USB‑C cable                           | [link](https://www.alza.cz/alzapower-core-usb-c-3-1-gen1?dq=5472812) |         159 |       $7.78 |  1  |             69 |          $3.37 |         228 |      $11.15 |
 | Insulating tape                         | [link](https://www.alza.cz/hobby/yato-paska-izolacni-250-19-mm20-m-cerna-d7772288.htm) |          68 |       $3.33 |  1  |              0 |          $0.00 |          68 |       $3.33 |
-
+## Total CZK 2 373 CZK
+## Total USD $116.03
 
 
 
