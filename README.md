@@ -76,7 +76,10 @@ Updated the prototype smoothered corners, added buttons and LEDS for better func
 ### 13.3.2026:  
 Update1, transmitter and receiver to have 3 pins meaning it will be better and faster + had to update CAD files so the new transmitter and receiver works well with the CAD   
 Update2, added wiring.md for this github repo, theres all wiring  
-Update3, made BOM file and customized github repo
+Update3, made BOM file and customized github repo  
+
+### 14.3.2026:
+Update, made and added firmware, hopefully it lasts and i dont need to make a new one
 
 </details>
 
