@@ -5,12 +5,12 @@ Battery -> JST 2.0 connector(on ESP32)
 **Receiver**  
 3V3 -> VS1838B VCC  
 GND -> VS1838B GND  
-VS1838B OUT -> GPIO 4 (beam detect: HIGH = broken, LOW = beam present)  
+VS1838B OUT -> GPIO 34 (beam detect: HIGH = broken, LOW = beam present)  
 
 **LEDS, button**  
 GPIO 16 -> 100Ω -> Green LED → GND  
 GPIO 17 -> 100Ω -> Red LED → GND  
-GPIO 18 -> Button leg A -> Button leg B → GND  
+GPIO 33 -> Button leg A -> Button leg B → GND  
 
 ## Transmitter  
 Battery -> JST 2.0 connector(on ESP32)  
@@ -21,4 +21,4 @@ DAT  ->  ESP32 GPIO 5
 
 **LED, button**  
 GPIO 16 -> 100Ω → Green LED (status)  
-GPIO 18 -> Button → GND  
+GPIO 33 -> Button → GND  
