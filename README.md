@@ -32,7 +32,7 @@ Transmitter:
 made first prototype just the cad and decided what is the perfect fit for this project (which esp, transmitter etc..)  
 
 ### 12.3.2026:  
-Updated the prototype smoothered corners, added buttons and LEDS for better functionality  
+Updated the prototype smoothered corners, added buttons and LEDS for better functionality, made github REPO and uploaded v1 files    
 
 ### 13.3.2026:  
 Updated transmitter and receiver to have 3 pins meaning it will be better and faster
