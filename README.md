@@ -16,10 +16,10 @@ It expect an infrared light from transmitter, when it doesnt get it, the esp32 d
 <details>
      <summary>Transmitter</summary>
      
-**what does it use?**
-4X M3 20mm screws, IR Transmitter, ESP32, SMD button, battery, resistors, Green LED  
-**how does it work?**
-it sends infrared light repeatedly over and over again
+**what does it use?**  
+4X M3 20mm screws, IR Transmitter, ESP32, SMD button, battery, resistors, Green LED    
+**how does it work?**  
+it sends infrared light repeatedly over and over again  
      
 </details>
 <details>
