@@ -35,6 +35,34 @@ Transmitter:
 
 
 
+| Name                                           | Link                                                                                                                                                                                                                                         | Price (CZK) | Price (USD) | Qty | Shipping (CZK) | Shipping (USD) | Total (CZK) | Total (USD) |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------: | ----------: | :-: | -------------: | -------------: | ----------: | ----------: |
+| IR transmitter module                          | [link)                                                                                                           |          18 |       $0.88 |  1  |              0 |          $0.00 |          18 |       $0.88 |
+| IR receiver VS1838B                            | [link](https://www.laskakit.cz/ir-prijimac-vs1838b/)                                                                                                                                                 |           6 |       $0.29 |  1  |              0 |          $0.00 |           6 |       $0.29 |
+| LaskaKit ESP32-DEVKit (PCB antenna)            | [link)                                                                                                                                       |         796 |      $38.91 |  2  |              0 |          $0.00 |         796 |      $38.91 |
+| GeB Li‑Ion Battery 2×18650 1S2P 3.7 V 6400 mAh | [link](https://www.laskakit.cz/geb-li-ion-baterie-2x18650-1s2p-3-7v-6400mah/)                                                                                               |         596 |      $29.15 |  2  |              0 |          $0.00 |         596 |      $29.15 |
+| Resistors set (1000 pcs)                       | [link](https://www.laskakit.cz/en/laskkit-sada-1000-rezistoru--34-hodnoty-1r-10m--20-az-50-kusu-na-jednu-hodnotu--0-25w-5-/) |         298 |      $14.57 |  1  |              0 |          $0.00 |         298 |      $14.57 |
+| LED diode 5 mm (Green)                         | [link](https://www.laskakit.cz/en/led-dioda-5mm/)               |           4 |       $0.20 |  2  |              0 |          $0.00 |           4 |       $0.20 |
+| LED diode 5 mm (Red)                           | [link](https://www.laskakit.cz/en/led-dioda-5mm/)       |           2 |       $0.10 |  1  |              0 |          $0.00 |           2 |       $0.10 |
+| Pin strip 40‑pin 2.54 mm (double‑sided)        | [link](https://www.laskakit.cz/en/pinovy-pas-40pin-2-54-mm-oboustranny-kolik/)       |        36 |     $1.76 |  2  |      0 |          $0.00 |          36 |       $1.76 |
+| Dupont cables 40 pc MF 10 cm                   | [link](https://www.laskakit.cz/en/dupont-propojovaci-kabely-40ks-m-f-samec-samice--10cm-/)    |   76 |   $3.72 |  2  |    0 |     $0.00 |      76 |     $3.72 |
+| SMD button 6×6×8 mm                            | [link](https://www.laskakit.cz/en/tlacitko-smd-6x6x8mm/)      |     4 |    $0.20 |  2  |        0 |       $0.00 |        4 |     $0.20 |
+| USB‑A to USB‑C cable                           | [link](https://www.alza.cz/alzapower-core-usb-c-3-1-gen1)         |     159 |     $7.78 |  1  |        0 |      $0.00 |         159 |       $7.78 |
+| Insulating tape (YATO)                         | [link](https://www.alza.cz/hobby/yato-paska-izolacni-250-19-mm20-m-cerna-d7772288.htm)       |       68 |     $3.33 |  1  |         0 |      $0.00 |      68 |   $3.33 |
+| Solder – Sn60Pb40 SW26 CYNEL (100 g)           | [link](https://allegro.cz/produkt/cin-cynel-0-7-mm-100-g-99e5d961-6ab8-4671-8a9c-d044c9a1d741)    |     206 |      $10.08 |  1  |     55 |    $2.69 |     261 |   $12.77 |
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## UPDATES:  
 ### 11.3.2026:  
 made first prototype just the cad and decided what is the perfect fit for this project (which esp, transmitter etc..)  
