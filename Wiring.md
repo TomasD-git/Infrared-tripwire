@@ -1,4 +1,7 @@
-# Receiver  
+# **Infrared Tripwire Wiring**
+
+## Receiver  
+Battery -> JST 2.0 connector(on ESP32)  
 **Receiver**  
 3V3 → VS1838B VCC  
 GND → VS1838B GND  
@@ -9,7 +12,8 @@ GPIO 16 → 100Ω → Green LED → GND
 GPIO 17 → 100Ω → Red LED → GND  
 GPIO 18 → Button leg A → Button leg B → GND  
 
-# Transmitter  
+## Transmitter  
+Battery -> JST 2.0 connector(on ESP32)  
 **Transmitter**  
 VCC  →  ESP32 3.3V  
 GND  →  ESP32 GND  
