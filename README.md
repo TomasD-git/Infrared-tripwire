@@ -1,4 +1,5 @@
 # Infrared-tripwire
+<img src="Images/Receiver1.png" width="300">
 My project for hackclub, basicly its split into 2 sides 1 is receiver and other is transmiter, how it works is the transmitter repeatedly sends infrared light the receiver expects it, if it doesnt see it (something is blocking it), then it sends that to the ESP32.  
 
 
@@ -12,6 +13,7 @@ My project for hackclub, basicly its split into 2 sides 1 is receiver and other 
 4x M3 20mm screws, IR receiver, ESP32, SMD button, battery, resistors, Green and red LED  
 **how does it work?**  
 It expect an infrared light from transmitter, when it doesnt get it, the esp32 detects it.   
+<img src="Images/Receiver1.png" width="300">
 
 </details>    
 <details>
@@ -21,7 +23,8 @@ It expect an infrared light from transmitter, when it doesnt get it, the esp32 d
 4X M3 20mm screws, IR Transmitter, ESP32, SMD button, battery, resistors, Green LED    
 **how does it work?**  
 it sends infrared light repeatedly over and over again  
-     
+   <img src="Images/Transmitter1.png" width="300">  
+   
 </details>
 <details>
      <summary>How do they work together?</summary>
@@ -136,3 +139,10 @@ And the most credits goes to:
      
 </details>
 
+## Disassembly:
+
+<img src="Images/Receiver1.png" width="300">
+<img src="Images/Receiver2.png" width="300">
+<img src="Images/Receiver3.png" width="300">
+<img src="Images/Receiver4.png" width="300">
+<img src="Images/Receiver5.png" width="300">
