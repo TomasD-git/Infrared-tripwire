@@ -1,6 +1,6 @@
 # Infrared-tripwire
 <img src="Images/Receiver1.png" width="300">
-My project for hackclub, basicly its split into 2 sides 1 is receiver and other is transmiter, how it works is the transmitter repeatedly sends infrared light the receiver expects it, if it doesnt see it (something is blocking it), then it sends that to the ESP32.  
+My project for hackclub, basically its split into 2 sides, a receiver and a transmitter, how it works is the transmitter repeatedly sends infrared light the receiver expects it, if it doesnt see it (something is blocking it), then it sends that to the ESP32.  
 
 
 
@@ -29,7 +29,7 @@ it sends infrared light repeatedly over and over again
 <details>
      <summary>How do they work together?</summary>
 
-Its pretty simple they both relly on each other, one streams infrared light other expects it, if the light is blocked and the receiver doesnt see the light anymore. it sends a comand to microcontroller.  
+Its pretty simple they both rely on each other, one streams infrared light other expects it, if the light is blocked and the receiver doesnt see the light anymore. it sends a command to microcontroller.  
      
 </details>
 
@@ -39,9 +39,9 @@ Its pretty simple they both relly on each other, one streams infrared light othe
      <summary>Some questions you might ask</summary>
      
 **Why did you chose thoses ESP32s?**    
-I chose them, beacose they were perfect they had JSH 2.0/battery connector on them so conecting the battery will be very easy + they have all pins i need.    
+I chose them, because they were perfect they had JSH 2.0/battery connector on them so connecting the battery will be very easy + they have all pins i need.    
 **What ESP32s would work for this?**  
-I recomend any with atleast 1, 3.3V and battery connector, if you cant get esp32 with battery connector there are many solutions you can just buy adapter.  
+I recommend any with atleast 1, 3.3V and battery connector, if you cant get esp32 with battery connector there are many solutions you can just buy adapter.  
 **Would it work with different IR Receiver or Transmitter?**  
 Short answer yes, but not all, you need IR receiver and transmitter with 3 pins 1 with 3.3v or less 1 for gnd and last for DAT which is the data it gets.  
 **How do i wire it together?**  
@@ -49,7 +49,7 @@ Look at the wiring.md i made, if you have breadboard you can test it on it then 
 **Can sunlight or other Infrared light interfear with your it?**  
 Yes, but only if the right Infrared would be directly aimed at the receiver, i tried to stop that so theres a little scope for it so it cannot randomly trigger or bypass it.  
 **How accurate is the tripwire**  
-I belive it is very accurate, but i will most likelly see once i build it, but this is not that much about accuracy but, infrared light is invisible to human eye so thats the main thing.  
+I believe it is very accurate, but i will most likelly see once i build it, but this is not that much about accuracy but, infrared light is invisible to human eye so thats the main thing.  
 **Can i use multible of these to make insane alarm system?**  
 yes but make sure you aim 1 transmitter at 1 receiver or it might break functionality.  
 **Why can't i see the Infrared light?**  
@@ -131,11 +131,11 @@ Update2, organized all files + added all CAD files.
      <summary>Credits</summary>
 
 All libraries i used in the firmware.  
-Stasis for future grant to make this real and their amazing comunity  
+Stasis for future grant to make this real and their amazing community  
 Arduino IDE for amazing software i can upload my firmware to ESP32.  
 Fusion 360 for CAD editor.  
 And the most credits goes to:  
-**Hack club** for always making amazing events and opurtunity for students to learn
+**Hack club** for always making amazing events and opportunity for students to learn
      
 </details>
 
