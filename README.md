@@ -1,5 +1,5 @@
 # Infrared-tripwire
-My project for hackclub, basicly its split into 2 sides 1 is receiver and other is transmiter, how it works is the transmitter repeatedly sends infrared light the receiver expects it if it doesnt see it(something is blocking it), it sends that to the ESP32
+My project for hackclub, basicly its split into 2 sides 1 is receiver and other is transmiter, how it works is the transmitter repeatedly sends infrared light the receiver expects it, if it doesnt see it (something is blocking it), then it sends that to the ESP32.  
 
 
 
@@ -12,6 +12,7 @@ My project for hackclub, basicly its split into 2 sides 1 is receiver and other 
 4x M3 20mm screws, IR receiver, ESP32, SMD button, battery, resistors, Green and red LED  
 **how does it work?**  
 It expect an infrared light from transmitter, when it doesnt get it, the esp32 detects it.   
+
 </details>    
 <details>
      <summary>Transmitter</summary>
@@ -24,15 +25,54 @@ it sends infrared light repeatedly over and over again
 </details>
 <details>
      <summary>How do they work together?</summary>
+
 Its pretty simple they both relly on each other, one streams infrared light other expects it, if the light is blocked and the receiver doesnt see the light anymore. it sends a comand to microcontroller.  
-     
-Btw infrared light is not visible to human eye so it is lowkey stealth
      
 </details>
 
+## Questions + Setup
 
+<details>
+     <summary>Some questions you might ask</summary>
+     
+**Why did you chose thoses ESP32s?**    
+I chose them, beacose they were perfect they had JSH 2.0/battery connector on them so conecting the battery will be very easy + they have all pins i need.    
+**What ESP32s would work for this?**  
+I recomend any with atleast 1, 3.3V and battery connector, if you cant get esp32 with battery connector there are many solutions you can just buy adapter.  
+**Would it work with different IR Receiver or Transmitter?**  
+Short answer yes, but not all, you need IR receiver and transmitter with 3 pins 1 with 3.3v or less 1 for gnd and last for DAT which is the data it gets.  
+**How do i wire it together?**  
+Look at the wiring.md i made, if you have breadboard you can test it on it then you will need to solder it together.  
+**Can sunlight or other Infrared light interfear with your it?**  
+Yes, but only if the right Infrared would be directly aimed at the receiver, i tried to stop that so theres a little scope for it so it cannot randomly trigger or bypass it.  
+**How accurate is the tripwire**  
+I belive it is very accurate, but i will most likelly see once i build it, but this is not that much about accuracy but, infrared light is invisible to human eye so thats the main thing.  
+**Can i use multible of these to make insane alarm system?**  
+yes but make sure you aim 1 transmitter at 1 receiver or it might break functionality.  
+**Why can't i see the Infrared light?**  
+Infrared light is not visible to human eye, you need to use different methods to see it.  
+**My LEDs don't light up**  
+You need the resistors otherwise the LED would get too much voltage and something bad can happen for example low up, or stop working.  
+**Can cheaper parts be used?**  
+Yes, but make sure you buy parts with same functionality as those i found, you can find cheaper parts since in EU shipping from amazon or ebay would be very expensive + the package can be lost.  
+**Can this be expanded to wifi connection?**  
+Yes, you can connect it to wifi and make it send allerts to website, discord, slack or whatever you want.  
+ 
+</details>
 
+<details>    
+     <summary>Setup</summary>
+     
+**Buy all needed parts**  
+**Download and print all CAD files for receiver and transmitter**  
+**Download Arduino IDE**  
+Paste my code into the sketch editor  
+Download all necessary libraries, with their dependencies    
+**Assemble all parts together using Wiring.md**
+**Once done upload your firmware to receiver and transmitter**
+**Test if everything works, if it does then you are all good if not reach out to me for help**
 
+</details>
 
 **Here is BOM**
 <details>
@@ -62,7 +102,7 @@ Btw infrared light is not visible to human eye so it is lowkey stealth
 
 
 
-## Updates
+## Updates + Credits
 <details>
      <summary>Updates</summary>
 
@@ -79,7 +119,20 @@ Update2, added wiring.md for this github repo, theres all wiring
 Update3, made BOM file and customized github repo  
 
 ### 14.3.2026:
-Update, made and added firmware, hopefully it lasts and i dont need to make a new one
+Update1, made and added firmware, hopefully it lasts and i dont need to make a new one  
+Update2, organized all files + added all CAD files.  
 
+</details>
+
+<details>
+     <summary>Credits</summary>
+
+All libraries i used in the firmware.  
+Stasis for future grant to make this real and their amazing comunity  
+Arduino IDE for amazing software i can upload my firmware to ESP32.  
+Fusion 360 for CAD editor.  
+And the most credits goes to:  
+**Hack club** for always making amazing events and opurtunity for students to learn
+     
 </details>
 
