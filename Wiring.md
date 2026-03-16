@@ -8,7 +8,7 @@ Battery -> PH2.0 connector
 GND -> VS1838B GND  
 VS1838B OUT -> GPIO 34   
 
-**LEDs, button**
+**LEDs, button**  
 GPIO 16 -> 100Ω -> Green LED -> GND  
 GPIO 17 -> 100Ω -> Red LED -> GND  
 GPIO 27 -> Button leg A -> Button leg B → GND  
