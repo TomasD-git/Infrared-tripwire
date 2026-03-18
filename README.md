@@ -112,8 +112,7 @@ Download all necessary libraries, with their dependencies
 | Insulating tape | [link](https://www.alza.cz/hobby/yato-paska-izolacni-250-19-mm20-m-cerna-d7772288.htm) | 68 | $3.33 | 1 | 0 | $0.00 | 68 | $3.33 |
 | M3x20mm screws | [link](https://www.bauhaus.cz/profi-depot-metricky-sroub-din-965-10270366) | 73 | $3.43 | 1 | 0 | $0.00 | 73 | $3.43 |
 
-## Total 2 305 CZK  
-## Total $112.60 USD
+## Total $94.51 USD  
 
 </details>
 
